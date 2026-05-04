@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import * as FiIcons from 'react-icons/fi';
 import SafeIcon from '../common/SafeIcon';
+import { CONTENT } from '../constants/content';
 
 const { FiMenu, FiX, FiArrowRight } = FiIcons;
 
@@ -28,7 +29,7 @@ const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="text-2xl font-black tracking-tighter text-slate-900 group">
-          BILLY<span className="text-blue-600 group-hover:text-blue-500 transition-colors">.K</span>
+          {CONTENT.personal.name}<span className="text-blue-600 group-hover:text-blue-500 transition-colors">.{CONTENT.personal.lastName.charAt(0)}</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -45,7 +46,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a
-            href="mailto:billykittt@gmail.com"
+            href={`mailto:${CONTENT.personal.email}`}
             className="flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-full text-sm font-bold hover:bg-blue-600 transition-all active:scale-95"
           >
             Let's Talk <SafeIcon icon={FiArrowRight} />
@@ -82,7 +83,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <a
-                href="mailto:billykittt@gmail.com"
+                href={`mailto:${CONTENT.personal.email}`}
                 className="w-full py-4 bg-blue-600 text-white rounded-2xl text-center font-bold"
               >
                 Projekt starten
