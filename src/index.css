@@ -1,0 +1,4 @@
+/* Version: 1.2.0 - Core CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
