@@ -7,28 +7,30 @@ export const CONTENT = {
     email: "hello@maxmustermann.de",
     phone: "+49 123 4567890",
     address: "Musterstraße 123, 10115 Berlin",
-    about: "Ich baue digitale Erlebnisse, die nicht nur gut aussehen, sondern auch technisch rasieren. Kein Bullshit, sondern echte Performance.",
+    about: "Ich entwickle digitale Lösungen, die durch Performance und exzellentes Design überzeugen. Mein Fokus liegt auf messbarem Erfolg für meine Kunden.",
+    taxId: "DE123456789",
+    disputeResolution: "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere E-Mail-Adresse finden Sie oben im Impressum."
   },
   hero: {
-    badge: "Senior Web Developer",
-    titleMain: "ICH DESIGN & BUILD",
-    titleAccent: "DIGITAL MAGIC.",
+    badge: "Available for new projects",
+    titleMain: "MODERNE WEB-ERLEBNISSE",
+    titleAccent: "DIE VERKAUFEN.",
     description: "Vergiss langsame Baukasten-Seiten. Ich entwickle High-End Interfaces mit React & Tailwind – Clean Code, krasse UX und messbare Ergebnisse.",
     ctaPrimary: "Projekt anfragen",
-    ctaSecondary: "Wie ich arbeite",
+    ctaSecondary: "Projekte ansehen",
   },
   services: [
     { 
-      title: "Performance First", 
-      text: "Deine Seite muss rennen. Ich optimiere bis zum letzten Byte, damit die Core Web Vitals im grünen Bereich sind." 
+      title: "High-End Development", 
+      text: "Moderne Tech-Stacks wie React und Next.js sorgen für blitzschnelle Ladezeiten und eine skalierbare Architektur." 
     },
     { 
-      title: "Modern Stack", 
-      text: "React, Tailwind, Node.js. Kein veralteter Kram, sondern zukunftssichere Tech-Lösungen für maximale Scalability." 
+      title: "UI/UX Strategie", 
+      text: "Ich gestalte Interfaces, die nicht nur schön aussehen, sondern Ihre Nutzer intuitiv zum Ziel führen." 
     },
     { 
-      title: "UX-Driven", 
-      text: "Design ist nicht nur Deko. Ich baue Interfaces, die intuitiv sind und deine User wirklich abholen." 
+      title: "Performance & SEO", 
+      text: "Optimierung für Suchmaschinen und Bestnoten in den Core Web Vitals sind bei mir Standard." 
     }
   ],
   partners: [
@@ -45,27 +47,27 @@ export const CONTENT = {
       category: 'Webentwicklung',
       description: 'Eine saubere, moderne E-Commerce-Plattform mit nahtloser Benutzererfahrung und Stripe Integration.',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      tags: ['React', 'Stripe']
+      tags: ['React', 'Tailwind', 'Stripe']
     },
     {
-      title: 'FinTech Dashboard',
-      category: 'UI/UX Design',
-      description: 'Umfassendes Dashboard für eine SaaS-Plattform mit Echtzeit-Analysen und Dark Mode.',
+      title: 'Real Estate Platform',
+      category: 'Web-App',
+      description: 'Umfassendes Dashboard für Immobilienverwaltungen mit interaktiven Karten und CRM-Anbindung.',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      tags: ['Next.js', 'Charts']
+      tags: ['Next.js', 'PostgreSQL', 'Maps']
     },
     {
-      title: 'Luxury Real Estate',
-      category: 'Webentwicklung',
-      description: 'High-End-Portfolio für ein Architekturbüro mit Fokus auf minimalistisches Design.',
+      title: 'Corporate Identity',
+      category: 'Branding',
+      description: 'Ganzheitliche Neugestaltung der Markenidentität für ein internationales Logistikunternehmen.',
       image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      tags: ['Portfolio', 'GSAP']
+      tags: ['Branding', 'Design System']
     }
   ],
   faqs: [
     {
       question: "Was kostet ein Projekt durchschnittlich?",
-      answer: "Ich arbeite meistens mit Festpreisen, basierend auf dem Projektumfang. Ein einfaches Portfolio startet bei ca. 2.000€, komplexe Web-Apps liegen höher. Wir klären das im Erstgespräch."
+      answer: "Ich arbeite meistens mit Festpreisen, basierend auf dem Projektumfang. Ein einfaches Portfolio startet bei ca. 1.500€, komplexe Web-Apps liegen höher. Wir klären das im Erstgespräch."
     },
     {
       question: "Welchen Tech-Stack nutzt du?",
@@ -73,11 +75,11 @@ export const CONTENT = {
     },
     {
       question: "Wie lange dauert die Umsetzung?",
-      answer: "Ein Standard-Projekt dauert in der Regel 4-6 Wochen von der Konzeption bis zum Live-Gang."
+      answer: "Ein Standard-Projekt dauert in der Regel 3-5 Wochen von der Konzeption bis zum Live-Gang."
     },
     {
       question: "Bietest du auch Wartung an?",
-      answer: "Ja, ich lasse dich nach dem Launch nicht allein. Ich biete Support-Pakete für Hosting, Updates und Security an."
+      answer: "Ja, ich biete monatliche Support-Pakete für Hosting, Updates und Security an, damit Sie sich um nichts kümmern müssen."
     }
   ]
 };
