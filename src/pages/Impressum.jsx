@@ -3,47 +3,38 @@ import { motion } from 'framer-motion';
 import { CONTENT } from '../constants/content';
 
 const Impressum = () => {
+  const replacePlaceholders = (text) => {
+    return text
+      .replace(/{fullName}/g, CONTENT.personal.fullName)
+      .replace(/{address}/g, CONTENT.personal.address)
+      .replace(/{email}/g, CONTENT.personal.email)
+      .replace(/{phone}/g, CONTENT.personal.phone)
+      .replace(/{taxId}/g, CONTENT.personal.taxId);
+  };
+
   return (
-    <div className="pt-32 pb-20 px-6">
-      <div className="max-w-4xl mx-auto">
-        <motion.div
+    <div className="pt-48 pb-24 bg-white">
+      <div className="max-w-4xl mx-auto px-6">
+        <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100"
         >
-          <h1 className="text-4xl font-bold mb-8">Impressum</h1>
+          <h1 className="text-6xl md:text-8xl font-black text-slate-900 mb-16 tracking-tighter italic uppercase leading-none">
+            {CONTENT.legal.impressum.title}
+          </h1>
           
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Angaben gemäß § 5 TMG</h2>
-            <p className="text-gray-600 leading-relaxed">
-              {CONTENT.personal.fullName}<br />
-              {CONTENT.personal.address.split(',')[0]}<br />
-              {CONTENT.personal.address.split(',')[1]?.trim()}
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Kontakt</h2>
-            <p className="text-gray-600 leading-relaxed">
-              Telefon: {CONTENT.personal.phone}<br />
-              E-Mail: {CONTENT.personal.email}
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Umsatzsteuer-ID</h2>
-            <p className="text-gray-600 leading-relaxed">
-              Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-              {CONTENT.personal.taxId}
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Streitbeilegung</h2>
-            <p className="text-gray-600 leading-relaxed">
-              {CONTENT.personal.disputeResolution}
-            </p>
-          </section>
+          <div className="space-y-16">
+            {CONTENT.legal.impressum.sections.map((section, idx) => (
+              <section key={idx}>
+                <h2 className="text-2xl font-black text-slate-900 mb-6 uppercase tracking-tight italic">
+                  {section.heading}
+                </h2>
+                <div className="text-slate-500 text-xl font-medium leading-relaxed whitespace-pre-line">
+                  {replacePlaceholders(section.content)}
+                </div>
+              </section>
+            ))}
+          </div>
         </motion.div>
       </div>
     </div>
