@@ -7,7 +7,7 @@ Schau dir das fertige Ergebnis hier an:
 **[👉 Demo ansehen](https://portfolio-modern-blau-wei--statisch-githubpages-cloudflare.pages.dev/)**
 
 <a href="https://portfolio-modern-blau-wei--statisch-githubpages-cloudflare.pages.dev/" target="_blank">
-  <img src="./src/assets/preview.png" alt="Portfolio Screenshot modern blau weiß statisch github cloudeflare pages" width="800" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="./src/assets/preview.jpg" alt="Portfolio Screenshot modern blau weiß statisch github cloudeflare pages" width="800" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
 
 ## 🚀 Features
