@@ -2,6 +2,14 @@
 
 Ein modernes, hochperformantes Portfolio-Template für Entwickler und Designer. Entwickelt für maximale Geschwindigkeit und einfache Anpassbarkeit.
 
+## 🔗 Live Demo
+Schau dir das fertige Ergebnis hier an:  
+**[👉 Demo ansehen](https://portfolio-modern-blau-wei--statisch-githubpages-cloudflare.pages.dev/)**
+
+<a href="https://portfolio-modern-blau-wei--statisch-githubpages-cloudflare.pages.dev/" target="_blank">
+  <img src="./src/assets/preview.png" alt="Portfolio Screenshot modern blau weiß statisch github cloudeflare pages" width="800" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+
 ## 🚀 Features
 - **Zentrale Konfiguration**: Alle Texte und Daten in einer einzigen Datei (`src/constants/content.js`).
 - **Modern Tech-Stack**: React 18, Vite 6, Tailwind CSS und Framer Motion.
@@ -29,7 +37,7 @@ npm install
 npm run dev
 ```
 
-### 3. Eigenes Repo erstellen & Deployed
+### 3. Eigenes Repo erstellen & Deployen
 1. Erstelle ein neues, leeres Repository auf deinem eigenen GitHub-Account.
 2. Push den Code in dein neues Repository.
 3. **GitHub Pages**: Gehe in die Einstellungen deines Repos -> Pages -> Wähle "GitHub Actions" als Quelle oder nutze den `gh-pages` Branch nach einem Build.

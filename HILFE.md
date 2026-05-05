@@ -2,6 +2,16 @@
 
 Willkommen zu deinem neuen Portfolio! Dieses Template wurde so gebaut, dass du **keine tiefen Programmierkenntnisse** benötigst, um die Inhalte zu ändern.
 
+## 🔗 Referenz / Demo
+Falls du sehen möchtest, wie das Template im Original aussieht:  
+**[Live Demo Link](https://portfolio-modern-blau-wei--statisch-githubpages-cloudflare.pages.dev/)**
+
+<a href="https://portfolio-modern-blau-wei--statisch-githubpages-cloudflare.pages.dev/" target="_blank">
+  <img src="./src/assets/preview.png" alt="Vorschau" width="800" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+
+---
+
 ## 📍 Wo ändere ich die Texte?
 
 Die wichtigste Datei für dich ist:
