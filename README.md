@@ -45,6 +45,11 @@ npm run dev
    - **Framework Preset**: Vite
    - **Build command**: `npm run build`
    - **Build output directory**: `dist`
+  
+
+### oder auf Webspace hochladen
+1. Downloade Dateien
+2. Uploaden auf eigenen Webspace
 
 ## 📝 Anpassung
 Um das Portfolio zu personalisieren, musst du nur die Datei **`src/constants/content.js`** bearbeiten. Dort findest du alle Namen, Texte, Projekte und FAQ-Einträge. Eine detaillierte Anleitung findest du in der `HILFE.md`.
